@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Calculo de notas</h1>
+        <form method="post" action="notas.php">
+            <table>
+                <tr>
+                    <td>Curso:</td>
+                    <td>
+                        <select name="curso">
+                            <option>Principios de Algoritmos</option>
+                            <option>Taller de programacion</option>
+                            <option>Herramientas de informacion</option>
+                        </select>
+                    </td>
+                    <tr>
+                        <td>Ingrese la Nota 1:</td>
+                        <td><input type="text" name="nota1"></td>
+                    </tr>
+                    <tr>
+                        <td>Ingrese la Nota 2:</td>
+                        <td><input type="text" name="nota2"></td>
+                    </tr>
+                    <tr>
+                        <td>Ingrese la Nota 3</td>
+                        <td><input type="text" name="nota3"></td>
+                    </tr>
+                    <tr><td><input type="submit" value="Promediar"></td></tr>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
